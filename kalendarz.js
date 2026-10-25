@@ -2,7 +2,7 @@
 // Nowy raport = nowa linia w RAPORTY (poniedziałek tygodnia, adres strony).
 (function(){
   var RAPORTY=[
-    {od:'2026-10-19',url:'tydzien-1.html',nr:1,okres:'19–25 października 2026',reklama:'1 448 zł',wysw:'170 tys.',zdanie:'Start reklam. KUKIRINIARA przekroczyła 130 tys., kanał +580 subskrypcji. Od 22.10 Google wstrzymał konto do weryfikacji.'}
+    {od:'2026-10-19',url:'tydzien-1.html',nr:1,okres:'19–25 października 2026',reklama:'1 448 zł',wysw:'170 tys.',zdanie:'Start promocji. Kanał +87% wyświetleń tydzień do tygodnia, KUKIRINIARA ponad 130 tys., prawie 2 000 subskrypcji.'}
   ];
   var MIES=['Styczeń','Luty','Marzec','Kwiecień','Maj','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'];
   var el=document.getElementById('kalendarz');if(!el)return;
@@ -27,14 +27,14 @@
   el.innerHTML='<div class="kNagl">Wybierz tydzień <span>różowe tygodnie mają raport</span></div><div class="kMiesiace">'+h+'</div>';
   var s=document.createElement('style');
   s.textContent='#kalendarz{background:var(--karta);border:1px solid var(--ramka);border-radius:14px;padding:16px 18px;margin:0 0 30px}'+
-  '.kNagl{font:500 15px Jost,sans-serif;margin-bottom:12px}.kNagl span{font:400 12.5px Figtree,sans-serif;color:var(--cichy);margin-left:8px}'+
+  '.kNagl{font:800 15px Manrope,sans-serif;margin-bottom:12px}.kNagl span{font:400 12.5px Manrope,sans-serif;color:var(--cichy);margin-left:8px}'+
   '.kMiesiace{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}'+
   '.kMies{min-width:0}.kNaz{font-size:13px;font-weight:600;margin-bottom:6px}'+
   '.kSiatka{display:grid;gap:2px;font-size:12px;text-align:center}'+
   '.kTydz{display:grid;grid-template-columns:repeat(7,1fr);border-radius:7px;padding:3px 0;color:var(--tekst);text-decoration:none}'+
   '.kDni{color:var(--cichy);font-size:11px}'+
   '.kTydz .poza{color:var(--szary)}.kTydz .dzis{font-weight:700;text-decoration:underline}'+
-  '.kTydz.jest{background:var(--jasny);color:var(--rozC);font-weight:600}'+
+  '.kTydz.jest{background:var(--jasny);color:var(--rozC);font-weight:700}'+
   '.kTydz.teraz{background:var(--roz);color:#fff}.kTydz.teraz .poza{color:rgba(255,255,255,.65)}'+
   '@media (max-width:760px){.kMiesiace{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}#kalendarz{padding:14px 10px}.kTydz{font-size:11.5px}}';
   document.head.appendChild(s);
