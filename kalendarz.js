@@ -16,7 +16,8 @@
     var pon=new Date(pierwszy);pon.setDate(pon.getDate()-((pon.getDay()+6)%7));
     h+='<div class="kMies"><div class="kNaz">'+MIES[mi]+' '+rok+'</div><div class="kSiatka"><div class="kTydz kDni"><span>pn</span><span>wt</span><span>śr</span><span>cz</span><span>pt</span><span>sb</span><span>nd</span></div>';
     while(pon<=ost){
-      var r=raport(pon),kl='kTydz'+(r?' jest':'')+(r&&r.nr===biezacy?' teraz':'');
+      // tydzień na przełomie miesięcy zaznaczamy tylko w miesiącu, w którym ma poniedziałek
+      var r=pon.getMonth()===mi?raport(pon):null,kl='kTydz'+(r?' jest':'')+(r&&r.nr===biezacy?' teraz':'');
       h+=r?'<a class="'+kl+'" href="'+r.url+'" title="Raport · tydzień '+r.nr+'">':'<div class="'+kl+'">';
       for(var d=0;d<7;d++){var x=new Date(pon);x.setDate(pon.getDate()+d);
         h+='<span class="'+(x.getMonth()!==mi?'poza':'')+(iso(x)===dzis?' dzis':'')+'">'+x.getDate()+'</span>';}
