@@ -2,7 +2,8 @@
 // Nowy raport = nowa linia w RAPORTY (poniedziałek tygodnia, adres strony).
 (function(){
   var RAPORTY=[
-    {od:'2026-10-19',url:'tydzien-1',nr:1,okres:'19–25 października 2026',reklama:'1 448 zł',wysw:'170 tys.',zdanie:'Start promocji. Kanał +87% wyświetleń tydzień do tygodnia, KUKIRINIARA ponad 130 tys., prawie 2 000 subskrypcji.'}
+    {od:'2026-10-19',url:'tydzien-1',nr:1,okres:'19–25 października 2026',reklama:'1 448 zł',wysw:'170 tys.',zdanie:'Start promocji. Kanał +87% wyświetleń tydzień do tygodnia, KUKIRINIARA ponad 130 tys., prawie 2 000 subskrypcji.'},
+    {od:'2026-10-26',url:'tydzien-2',nr:2,okres:'26 października – 1 listopada 2026',reklama:'3 781 zł',wysw:'836 tys.',zdanie:'Rekord kanału: +226% wyświetleń, ponad 3 000 subskrypcji, długie odcinki +109 tys., KUKIRINIARA 187 tys.'}
   ];
   var MIES=['Styczeń','Luty','Marzec','Kwiecień','Maj','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'];
   var el=document.getElementById('kalendarz');if(!el)return;
