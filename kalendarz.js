@@ -5,7 +5,7 @@
     {od:'2026-10-19',url:'tydzien-1',nr:1,okres:'19–25 października 2026',reklama:'1 448 zł',wysw:'170 tys.',zdanie:'Start promocji. Kanał +87% wyświetleń tydzień do tygodnia, KUKIRINIARA ponad 130 tys., prawie 2 000 subskrypcji.'},
     {od:'2026-10-26',url:'tydzien-2',nr:2,okres:'26 października – 1 listopada 2026',reklama:'3 781 zł',wysw:'836 tys.',zdanie:'Rekord kanału: +226% wyświetleń, ponad 3 000 subskrypcji, długie odcinki +109 tys., KUKIRINIARA 187 tys.'},
     {od:'2026-11-02',url:'tydzien-3',nr:3,okres:'2–8 listopada 2026',reklama:'1 497 zł',wysw:'595 tys.',zdanie:'Średni czas oglądania kanału prawie 2× dłuższy, Sergio 11 tys. w 2 dni przy 10 minutach, Halloween ponad 20 tys.'},
-    {od:'2026-11-09',url:'tydzien-4',nr:4,okres:'9–15 listopada 2026',reklama:'1 842 zł',wysw:'1,14 mln',zdanie:'Rekord kanału: 1,14 mln wyświetleń w tydzień, 10 FACETÓW 305 tys. (najczęściej oglądany odcinek), NIEZRĘCZNE randki 70 tys. pierwszego dnia, średni czas 6:55.'}
+    {od:'2026-11-09',url:'tydzien-4',nr:4,okres:'9–15 listopada 2026',reklama:'1 842 zł',wysw:'1,14 mln',zdanie:'Rekord kanału: 1,14 mln wyświetleń w tydzień, 10 FACETÓW 311 tys. (najczęściej oglądany odcinek), NIEZRĘCZNE randki ponad 100 tys. w 2 dni, średni czas 6:55.'}
   ];
   var MIES=['Styczeń','Luty','Marzec','Kwiecień','Maj','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'];
   var el=document.getElementById('kalendarz');if(!el)return;
